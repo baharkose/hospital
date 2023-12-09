@@ -23,6 +23,7 @@ const AddModal = ({ doctors, onClose, makeAppointment, setMakeAppointment }) => 
       patientName: "",
       date: "",
       time:"",
+      consulted:false
     })
   };
 console.log(makeAppointment)

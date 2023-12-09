@@ -25,9 +25,8 @@ const [makeAppointment, setMakeAppointment] = useState([])
         )}
       </div>
       <h1 className="text-center pb-2">Appointment List</h1>
-      {appointmentData.map((item) => (
-        <AppointmentList appointmentData={item} makeAppointment={makeAppointment} />
-      ))}
+        <AppointmentList setMakeAppointment={setMakeAppointment} makeAppointment={makeAppointment} />
+     
     </div>
   );
 };
